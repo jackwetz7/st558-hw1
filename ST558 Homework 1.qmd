@@ -1,0 +1,40 @@
+---
+title: "Data Science"
+format: html
+editor: visual
+---
+
+## Question 1
+
+I think that being a data scientist is about combining the skills of:
+
+-   data set creation
+
+-   data analysis
+
+-   data visualization
+
+Data scientists will know how to take a data set and clean it in a way so that statistical models can be created to make conclusions about the data. This is typically done through computer programming. They are similar to statisticians in that both perform statistical analysis on data sets. However, a difference is they focus on problems and techniques unique to digital data and have an emphasis on prediction and action. I personally believe that the two fields are very similar and don't necessarily need to be considered separate.
+
+## Question 2
+
+Computing kernel density:
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Determining the class, type, and structure of the object y:
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+Plot of y:
+
+```{r}
+#| echo: false
+plot(y)
+```

@@ -32,7 +32,7 @@ typeof(y)
 str(y)
 ```
 
-Plot of y:
+Creating a density plot of y:
 
 ```{r}
 #| echo: false
